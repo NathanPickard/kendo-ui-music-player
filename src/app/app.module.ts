@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AlbumComponent } from './album/album.component';
 import { AlbumListComponent } from './album-list/album-list.component';
+import { SongListComponent } from './song-list/song-list.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AlbumListComponent } from './album-list/album-list.component';
     AppComponent,
     HeaderComponent,
     AlbumComponent,
-    AlbumListComponent
+    AlbumListComponent,
+    SongListComponent
   ],
   imports: [
     BrowserModule,

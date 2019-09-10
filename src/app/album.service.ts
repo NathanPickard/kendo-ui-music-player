@@ -15,7 +15,7 @@ export class AlbumService {
   }
 
   getAlbums() {
-    return this.http.get('https://api.spotify.com/v1/browse/new-releases?limit=10&country=GB', {
+    return this.http.get('https://api.spotify.com/v1/browse/new-releases?limit=10&country=US', {
       headers: this.headers
     });
   }
