@@ -1,0 +1,44 @@
+.song-list {
+  padding: 30px 50px;
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    opactiy: 0.7;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 15px;
+  }
+  hr {
+    border-color: rgba(0, 0, 0, 0.07);
+    margin-bottom: 15px;
+  }
+  .album-info {
+    display: flex;
+    align-items: flex-end;
+    &__image {
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 6px;
+      }
+    }
+    &__name {
+      h4 {
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #7b84ff;
+        font-weight: 600;
+        opacity: 0.8;
+        margin: 0 0 0 10px;
+      }
+      p {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 500;
+        opacity: 0.6;
+        margin: 0 0 5px 10px;
+      }
+    }
+  }
+}

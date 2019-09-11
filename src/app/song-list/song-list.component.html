@@ -1,1 +1,16 @@
-<p>song-list works!</p>
+<div class="song-list">
+  <div>
+    <h3>Current Album</h3>
+    <hr>
+    <div class="album-info">
+      <div class="album-info__image">
+        <img [src]="albumCover.url" [alt]="currentAlbum.name">
+      </div>
+      <div class="album-info__name">
+        <h4>{{ currentAlbum.name }}</h4>
+        <p>{{ albumArtist.name</p>
+      </div>
+    </div>
+  </div>
+  <app-song-item *ngFor="let track of tracks" [track]="track"></app-song-item>
+</div>

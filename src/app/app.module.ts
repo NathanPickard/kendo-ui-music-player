@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { AlbumComponent } from './album/album.component';
 import { AlbumListComponent } from './album-list/album-list.component';
 import { SongListComponent } from './song-list/song-list.component';
+import { SongItemComponent } from './song-item/song-item.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SongListComponent } from './song-list/song-list.component';
     HeaderComponent,
     AlbumComponent,
     AlbumListComponent,
-    SongListComponent
+    SongListComponent,
+    SongItemComponent
   ],
   imports: [
     BrowserModule,
