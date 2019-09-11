@@ -6,6 +6,7 @@
         <app-album-list [albums]="albums" (albumSelected)="onAlbumChange($event)"></app-album-list>
       </kendo-splitter-pane>
       <kendo-splitter-pane min="30%">
+        <app-song-list [tracks]="tracks" [currentAlbum]="currentAlbum"></app-song-list>
       </kendo-splitter-pane>
     </kendo-splitter>
   </section>
